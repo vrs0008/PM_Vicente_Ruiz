@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="rojo_puton">#E00000</color>
+    <color name="azulito">#00E1FF</color>
 </resources>
