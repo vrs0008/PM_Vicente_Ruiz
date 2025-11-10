@@ -35,17 +35,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textCorreo" />
 
     <Switch
-        android:id="@+id/switch1textRecordarContraseña"
+        android:id="@+id/sRecordar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="110dp"
         android:layout_marginTop="28dp"
         android:text="¿Recordar contraseña?"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/tPass" />
 
     <Button
-        android:id="@+id/buttonContinuar"
+        android:id="@+id/bContinuar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/tPass"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textContrasena" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/tCorreo"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
@@ -79,5 +79,14 @@
         app:layout_constraintBottom_toTopOf="@+id/textContrasena"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textCorreo" />
+
+    <TextView
+        android:id="@+id/txMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="525dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
